@@ -2,24 +2,16 @@
 
 public abstract class GeometricFigures 
 {
-    public int Name       
-    {   
-        get;    
-        set;    
-    }
+    //Properties
+    public string Name { get; set; } = null!; 
 
+    //Methods
     public override string ToString()
     {
         return base.ToString();
     }
-    public abstract double GetArea()
-    { 
-        
-    }
+    public abstract double GetArea(){}
+    public abstract double GetPerimiter(){}
 
-    public abstract double GetPerimiter()
-    {
-
-    }
 
 }
