@@ -1,4 +1,4 @@
 ﻿using GeometricFigures.Backend;
 
-var square = new Square(10);
+var square = new Square(a: 10);
 Console.WriteLine(square);

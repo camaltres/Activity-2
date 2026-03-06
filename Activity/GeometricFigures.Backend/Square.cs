@@ -11,9 +11,9 @@ public class Square : GeometricFigures
     private double _a;
 
     //Constructor
-    public Square(double square) 
+    public Square(double a) 
     {
-        A = square;
+        A = a;
     }
 
     //Properties
