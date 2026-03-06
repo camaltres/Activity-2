@@ -7,7 +7,7 @@ public abstract class GeometricFigures
     //Methods
     public override string ToString()
     {
-        return Name;
+        return $"{Name}:Area:{GetArea} Perimetro:{GetPerimiter}";
     }
     public abstract double GetArea();
     public abstract double GetPerimiter();

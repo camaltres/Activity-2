@@ -1,2 +1,4 @@
-﻿var circule = new GeometricFigures.Backend();
-Console.WriteLine("Hello, World!");
+﻿using GeometricFigures.Backend;
+
+var square = new Square(10);
+Console.WriteLine(square);
