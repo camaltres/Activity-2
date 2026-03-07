@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="GeometricFigures.Backend.GeometricFigures">
-    <Position X="5.75" Y="1.75" Width="1.75" />
+    <Position X="6" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAEAAAAAEAAAAAA=</HashCode>
       <FileName>GeometricFigures.cs</FileName>
@@ -9,14 +9,6 @@
   </Class>
   <Class Name="GeometricFigures.Backend.Square">
     <Position X="6" Y="4.5" Width="1.5" />
-    <InheritanceLine Type="GeometricFigures.Backend.GeometricFigures" ManuallyRouted="true">
-      <Path>
-        <Point X="6.625" Y="3.69" />
-        <Point X="6.625" Y="4.248" />
-        <Point X="6.75" Y="4.248" />
-        <Point X="6.75" Y="4.5" />
-      </Path>
-    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAQAAAAAAAAAAAAAAAAAEAAAAAMAAAAAA=</HashCode>
       <FileName>Square.cs</FileName>
@@ -42,6 +34,20 @@
       <HashCode>AAAAAAAAAACAAAAAAAAAIAAAAAAAAAEAAAAAEAEAAAA=</HashCode>
       <FileName>Kite.cs</FileName>
       <NewMemberFileName>kite.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeometricFigures.Backend.Rectangle">
+    <Position X="3.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAIAAAAAAAAAEAAAAAEAEAAAA=</HashCode>
+      <FileName>Rectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeometricFigures.Backend.Triangle">
+    <Position X="3.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Triangle.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
