@@ -7,7 +7,7 @@ public abstract class GeometricFigures
     //Methods
     public override string ToString()
     {
-        return $"{Name}:Area:{GetArea()} Perimetro:{GetPerimiter()}";
+        return $"{Name}\t=> Area.....:{GetArea(),15:N5} \tPerimiter.....:{GetPerimiter(),15:N5}";
     }
     public abstract double GetArea();
     public abstract double GetPerimiter();

@@ -11,9 +11,10 @@ public class Square : GeometricFigures
     private double _a;
 
     //Constructor
-    public Square(double a) 
+    public Square(double a, string name) 
     {
         A = a;
+        Name = name;
     }
 
     //Properties
@@ -41,9 +42,13 @@ public class Square : GeometricFigures
 
     private double ValidateA(double l1) 
     {
-        if (l1 <= 0)
+        if (l1 == 0)
         {
-            throw new ArgumentException($"El lado: {l1} no puede ser 0 o menor a este");
+            throw new ArgumentException($"El lado: {l1} no puede ser 0");
+        }
+        if (l1 < 0)
+        {
+            throw new ArgumentException($"El lado: {l1} no puede ser un número negativo");
         }
         return l1;
     }
