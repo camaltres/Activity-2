@@ -21,13 +21,13 @@ public class Triangle : Rectangle
     public double C
     {
         get => _c;
-        set => _c = value;
+        set => _c = ValidateC(value);
     }
 
     public double H
     {
         get => _h;
-        set => _h = value;
+        set => _h = ValidateH(value);
     }
 
     //Methods
@@ -61,11 +61,11 @@ public class Triangle : Rectangle
     {
         if (H == 0)
         {
-            throw new ArgumentException($"El lado: {H} no puede ser 0");
+            throw new ArgumentException($"La altura: {H} no puede ser 0");
         }
         if (H < 0)
         {
-            throw new ArgumentException($"El lado: {H} no puede ser un número negativo");
+            throw new ArgumentException($"La altura: {H} no puede ser un número negativo");
         }
         return H;
     }

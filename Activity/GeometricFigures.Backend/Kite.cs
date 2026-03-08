@@ -36,11 +36,11 @@ public class Kite : Rhombus
     {
         if (B == 0)
         {
-            throw new ArgumentException($"El radio: {B} no puede ser 0");
+            throw new ArgumentException($"El lado: {B} no puede ser 0");
         }
         if (B < 0)
         {
-            throw new ArgumentException($"El radio: {B} no puede ser un número negativo");
+            throw new ArgumentException($"El lado: {B} no puede ser un número negativo");
         }
         return B;
     }

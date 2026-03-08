@@ -42,30 +42,30 @@ public class Rhombus : Square
         return y;
     }
 
-    private double ValidateD1(double l1) 
+    private double ValidateD1(double d1) 
     {
-        if(l1 == 0)
+        if(d1 == 0)
         {
-            throw new ArgumentException($"El lado: {l1} no puede ser 0");
+            throw new ArgumentException($"La diagonal mayor: {d1} no puede ser 0");
         }
-        if (l1 < 0)
+        if (d1 < 0)
         {
-            throw new ArgumentException($"El lado: {l1} no puede un número menor a 0");
+            throw new ArgumentException($"La diagona mayor: {d1} no puede un número menor a 0");
         }
-        return l1;
+        return d1;
     }
 
-    private double ValidateD2(double l2)
+    private double ValidateD2(double d2)
     {
-        if (l2 == 0)
+        if (d2 == 0)
         {
-            throw new ArgumentException($"El lado: {l2} no puede ser 0");
+            throw new ArgumentException($"La diagonal menor: {d2} no puede ser 0");
         }
-        if (l2 < 0)
+        if (d2 < 0)
         {
-            throw new ArgumentException($"El lado: {l2} no puede un número menor a 0");
+            throw new ArgumentException($"La diagonal menor: {d2} no puede un número menor a 0");
         }
-        return l2;
+        return d2;
     }
 }
 
