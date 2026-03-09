@@ -5,7 +5,7 @@ using System.Text;
 
 namespace GeometricFigures.Backend;
 
-public class Square : GeometricFigures
+public class Square : GeometricFigure
 {
     //Fields
     private double _a;

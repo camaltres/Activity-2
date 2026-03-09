@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="GeometricFigures.Backend.GeometricFigures">
+  <Class Name="GeometricFigures.Backend.GeometricFigure">
     <Position X="8.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAEAAAAAEAAAAAA=</HashCode>
-      <FileName>GeometricFigures.cs</FileName>
+      <FileName>GeometricFigure.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GeometricFigures.Backend.Square">

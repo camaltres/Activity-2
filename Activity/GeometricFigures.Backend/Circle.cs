@@ -4,7 +4,7 @@ using System.Text;
 
 namespace GeometricFigures.Backend;
 
-public class Circle : GeometricFigures
+public class Circle : GeometricFigure
 {
     //Field 
     double _r;

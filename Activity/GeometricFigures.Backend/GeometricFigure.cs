@@ -1,8 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace GeometricFigures.Backend;
 
-namespace GeometricFigures.Backend;
-public class GeometricFigure
+public abstract class GeometricFigure 
 {
+    //Properties
+    public string Name { get; set; } = null!; 
+    //Methods
+    public override string ToString() => $"{Name,-12}" +
+        $"\t=>Area.....:{GetArea(),15:N5}" +
+        $"\tPerimiter.....:{GetPerimiter(),15:N5}";
+    public abstract double GetArea();
+    public abstract double GetPerimiter();
+
 }
